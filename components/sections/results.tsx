@@ -5,7 +5,7 @@ import { motion, useInView } from 'framer-motion'
 import gsap from 'gsap'
 
 export const Results = () => {
-  const countersRef = useRef<(HTMLDivElement | null)[]>([])
+  const countersRef = useRef<(HTMLSpanElement | null)[]>([]);
 
   const results = [
     { value: 1.2, label: 'Milionów przychodu', suffix: 'M+', prefix: '' },
